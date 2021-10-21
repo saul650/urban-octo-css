@@ -1,0 +1,48 @@
+html{
+    font-family: 'Nunito', sans-serif;
+}
+body{
+    margin  :0;
+    background-color:navajowhite;
+}
+header{
+    background-color:orange ;
+    color: gold;
+    padding: 3rem 2rem;
+}
+header h1{
+    font-size: 4rem;
+    text-align: center;
+    /*paraa alinear*/
+}
+.container{
+    width: 400px;
+    margin: 0 auto;
+}
+
+section article{
+    background-color: peru;
+    margin: 1rem 0;
+    border-radius:0.5rem ;
+    padding: 0.15rem 0;
+    cursor: pointer;
+}
+
+section article:hover{
+    box-shadow: 0.0.1rem 0.4rem greenyellow;
+    /*para que se muestre como selecionas el articulo*/
+}
+section article h2, section article p{
+    margin: 1rem;
+}
+footer{
+     background-color: grey;
+    padding:3rem;
+     color:rgba(255, 187, 0, 0.644);
+}
+footer section{
+    float: right;
+   }
+footer a{
+    color:rgba(255, 187, 5, 0.644);
+}
